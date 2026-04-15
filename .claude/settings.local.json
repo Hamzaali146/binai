@@ -6,7 +6,9 @@
       "Bash(binai info:*)",
       "Bash(binai scenarios:*)",
       "Bash(mv cvtest:*)",
-      "Bash(mv cvtest.egg-info binai.egg-info)"
+      "Bash(mv cvtest.egg-info binai.egg-info)",
+      "Bash(python -c \"import streamlit; print\\(streamlit.__version__\\)\")",
+      "Bash(pip show *)"
     ]
   }
 }
