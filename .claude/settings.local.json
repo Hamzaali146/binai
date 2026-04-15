@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(pip install:*)",
+      "Bash(binai info:*)",
+      "Bash(binai scenarios:*)",
+      "Bash(mv cvtest:*)",
+      "Bash(mv cvtest.egg-info binai.egg-info)"
+    ]
+  }
+}
